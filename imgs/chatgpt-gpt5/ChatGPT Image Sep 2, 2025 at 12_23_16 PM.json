@@ -1,0 +1,14 @@
+{
+    "image": "A_photograph_of_a_domestic_short-haired_tabby_cat_.png",
+    "annotations": [
+        {
+            "label": "cat",
+            "bbox": {
+                "x_min": 220,
+                "y_min": 210,
+                "x_max": 680,
+                "y_max": 980
+            }
+        }
+    ]
+}

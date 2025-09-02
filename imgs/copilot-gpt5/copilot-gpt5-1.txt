@@ -1,0 +1,23 @@
+Image
+
+Resolution: 
+    1280×768 (landscape)
+
+Object: 
+    single cat (main subject), mid-foreground on the floor/rug area.
+
+Bounding box (proposal)
+Pixel (xmin, ymin, xmax, ymax): 
+    (460, 260, 820, 690)
+Width × Height: 
+    360 × 430
+COCO bbox [x, y, width, height]: 
+    [460, 260, 360, 430]
+YOLO (normalized) class x_center y_center width height (for class 0=cat):
+    Calculations for 1280×768:
+    x_center = (460+820)/2 / 1280 = 640/1280 = 0.500000
+    y_center = (260+690)/2 / 768 = 475/768 ≈ 0.618490
+    width = 360/1280 = 0.281250
+    height = 430/768 ≈ 0.559896
+Line:
+    0 0.500000 0.618490 0.281250 0.559896
