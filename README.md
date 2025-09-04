@@ -4,7 +4,7 @@
 
 ```ACM reference
 Mohamed Elawady. 2025. Advancing Assessment Practices in CS Education through AI-Generated 
-Visual Test Cases.  In UK and Ireland Computing Education Research Conference (UKICER 2025), 
+Visual Test Cases. In UK and Ireland Computing Education Research Conference (UKICER 2025), 
 September 04–05, 2025, Edinburgh, United Kingdom. ACM, New York, NY, USA, 1 page.
 https://doi.org/10.1145/3754508.3754538
 ```
