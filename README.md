@@ -1,5 +1,16 @@
 # Advancing Assessment Practices in CS Education through AI-Generated Visual Test Cases
 
+##  Citation
+
+```ACM reference
+Mohamed Elawady. 2025. Advancing Assessment Practices 
+in CS Education through AI-Generated Visual Test Cases. 
+In UK and Ireland Computing Education Research Conference 
+(UKICER 2025), September 04–05, 2025, Edinburgh, United Kingdom. 
+ACM, New York, NY, USA, 1 page.
+https://doi.org/10.1145/3754508.3754538
+```
+
 ## Demo
 
 - Image Classification Validator:
@@ -17,17 +28,6 @@
   - [[Google Colab](https://colab.research.google.com/drive/1VMFIkbg4yrbRtlx6G0jmAOZUBnaqpfT_?usp=sharing)]
   - [[Gradio Demo](https://4f249791ef35fa7222.gradio.live/)] - temporary share
   - [[HF Spaces Demo](https://huggingface.co/spaces/mawady-uni/ImgDetValid)] - permanent share
-
-##  Citation
-
-```ACM reference
-Mohamed Elawady. 2025. Advancing Assessment Practices 
-in CS Education through AI-Generated Visual Test Cases. 
-In UK and Ireland Computing Education Research Conference 
-(UKICER 2025), September 04–05, 2025, Edinburgh, United Kingdom. 
-ACM, New York, NY, USA, 1 page. 
-https: //doi.org/10.1145/3754508.3754538
-```
 
 ## Visual Test Cases (cats)
 
