@@ -37,13 +37,13 @@ https://doi.org/10.1145/3754508.3754538
 
 ### Google - Gemini 2.5 Flash
 
-- Images Folder: [./imgs/gemini-2.5-flash/](./imgs/gemini-2.5-flash/)
+- Data Folder (images): [./imgs/gemini-2.5-flash/](./imgs/gemini-2.5-flash/)
 - Link: <https://gemini.google.com/>
 - Discussion: Capable of generating images; however, automatic bounding box generation for object detection is not supported.
 
 ### OpenAI - ChatGPT GPT5
 
-- Images Folder: [./imgs/chatgpt-gpt5/](./imgs/chatgpt-gpt5/)
+- Data Folder (images and detection information in json format file): [./imgs/chatgpt-gpt5/](./imgs/chatgpt-gpt5/)
 - Link: <https://chatgpt.com/>
 - Discussion: Successfully generated images with bounding box information and text descriptions in JSON format. Further example generation is constrained by paywall restrictions.
 
