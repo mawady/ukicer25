@@ -37,6 +37,7 @@ https://doi.org/10.1145/3754508.3754538
 
 ### Google - Gemini 2.5 Flash
 
+- Images Folder: [./imgs/gemini-2.5-flash](./imgs/gemini-2.5-flash)
 - Link: <https://gemini.google.com/>
 - Discussion: Capable of generating images; however, automatic bounding box generation for object detection is not supported.
 
