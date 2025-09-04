@@ -29,17 +29,11 @@ https://doi.org/10.1145/3754508.3754538
   - [[Gradio Demo](https://4f249791ef35fa7222.gradio.live/)] - temporary share
   - [[HF Spaces Demo](https://huggingface.co/spaces/mawady-uni/ImgDetValid)] - permanent share
 
-## Visual Test Cases (cats)
+## Visual Test Cases (sorted from best to worst)
 
 ### Prompt
 
 - generate realistic image (cat in room) and write bounding box coordinates of cat within the image to be used later to compare with object detection models. don't show annotation box over the generated image.
-
-### Google - Gemini 2.5 Flash
-
-- Data Folder (images): [./imgs/gemini-2.5-flash/](./imgs/gemini-2.5-flash/)
-- Link: <https://gemini.google.com/>
-- Discussion: Capable of generating images; however, automatic bounding box generation for object detection is not supported.
 
 ### OpenAI - ChatGPT GPT5
 
@@ -47,32 +41,42 @@ https://doi.org/10.1145/3754508.3754538
 - Link: <https://chatgpt.com/>
 - Discussion: Successfully generated images with bounding box information and text descriptions in JSON format. Further example generation is constrained by paywall restrictions.
 
-### Anthropic - Claude Sonnet 4
-
-- Link: <https://claude.ai/chat/>
-- Discussion: Unable to automatically generate images or annotation metadata for object detection. However, capable of creating and running an annotation application that allows manual image upload, bounding box drawing, and exporting annotations in multiple formats (COCO, YOLO, Pascal VOC).
-
 ### Microsoft - M365 Copilot GPT5
 
+- Data Folder (images and text of LLM reply): [./imgs/copilot-gpt5/](./imgs/copilot-gpt5/)
 - Link: <https://m365.cloud.microsoft/chat/>
-- Discussion: Very slow in execution
+- Discussion: Capable of generating images and text with highlighted detection bounding boxes, but lacks support for exporting results as downloadable files and performs with slow execution speed.
 
-### StabilityAI - Stable Diffusion 2.1
+### Google - Gemini 2.5 Flash
 
-- Links:
-  - <https://huggingface.co/spaces/stabilityai/stable-diffusion>
-  - <https://huggingface.co/stabilityai/stable-diffusion-2>
-
-- Discussion: Unable to generate annotation metadata for object detection since the model is limited to text-to-image generation. The outputs are less realistic, and only basic prompt text such as 'cat in room' can be used.
+- Data Folder (images): [./imgs/gemini-2.5-flash/](./imgs/gemini-2.5-flash/)
+- Link: <https://gemini.google.com/>
+- Discussion: Capable of generating images; however, automatic bounding box generation for object detection is not supported.
 
 ### Black Forest Labs - FLUX.1-dev
 
+- Data Folder (images): [./imgs/stable-diffusion-2.1/](./imgs/stable-diffusion-2.1/)
 - Links:
   - <https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev>
   - <https://huggingface.co/black-forest-labs/FLUX.1-dev>
 - Discussion: Cannot generate annotation metadata for object detection as it is restricted to text-to-image generation. Outputs tend to be less realistic (mainly focusing on the same body pose) and rely on simple prompts such as 'cat in room,' though performance is superior to Stable Diffusion 2.1.
 
+### StabilityAI - Stable Diffusion 2.1
+
+- Data Folder (images): [./imgs/stable-diffusion-2.1/](./imgs/stable-diffusion-2.1/)
+- Links:
+  - <https://huggingface.co/spaces/stabilityai/stable-diffusion>
+  - <https://huggingface.co/stabilityai/stable-diffusion-2>
+- Discussion: Unable to generate annotation metadata for object detection since the model is limited to text-to-image generation. The outputs are less realistic, and only basic prompt text such as 'cat in room' can be used.
+
 ### Craiyon - DALL·E mini
 
+- Data Folder (images): [./imgs/dall.e-mini/](./imgs/dall.e-mini/)
 - Link: <https://huggingface.co/spaces/dalle-mini/dalle-mini>
 - Discussion: One of the earliest open-source text-to-image generation models, lacking object detection metadata. The outputs are highly unrealistic.
+
+### Anthropic - Claude Sonnet 4
+
+- Data Folder (screenshot of LLM reply): [./imgs/claude-sonnet4/](./imgs/claude-sonnet4/)
+- Link: <https://claude.ai/chat/>
+- Discussion: Unable to automatically generate images or annotation metadata for object detection. However, capable of creating and running an annotation application that allows manual image upload, bounding box drawing, and exporting annotations in multiple formats (COCO, YOLO, Pascal VOC).
