@@ -16,16 +16,14 @@ https://doi.org/10.1145/3754508.3754538
   - Pre-trained weights: ImageNet
   - Function: Upload an AI-generated image to see top-3 predictions from classification models with probabilities.
   - [[Google Colab](https://colab.research.google.com/drive/1Ma1eVp-A6btT7yLZzguuNXeAK0Grceuc?usp=sharing)]
-  - [[Gradio Demo](https://f9c97e2b56721bb5c5.gradio.live/)] - temporary share
-  - [[HF Spaces Demo](https://huggingface.co/spaces/mawady-uni/ImgClsValid)]  - permanent share
+  - [[HF Spaces Demo](https://huggingface.co/spaces/mawady-uni/ImgClsValid)]
 
 - Image Detection Validator:
   - Used models: YOLOv8n, YOLOv12n
   - Pre-trained weights: COCO
   - Function: Upload an AI-generated image to view the top three predictions from detection models, including their probabilities, along with the corresponding bounding boxes for each model.
   - [[Google Colab](https://colab.research.google.com/drive/1VMFIkbg4yrbRtlx6G0jmAOZUBnaqpfT_?usp=sharing)]
-  - [[Gradio Demo](https://4f249791ef35fa7222.gradio.live/)] - temporary share
-  - [[HF Spaces Demo](https://huggingface.co/spaces/mawady-uni/ImgDetValid)] - permanent share
+  - [[HF Spaces Demo](https://huggingface.co/spaces/mawady-uni/ImgDetValid)]
 
 ## Visual Test Cases (sorted from best to worst)
 
